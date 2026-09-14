@@ -2,7 +2,7 @@
 
 nombre=input("nombre: ")
 apellido=input("apellido: ")
-#edad=input("edad: ")
+edad=input("edad: ")
 #email=input("email: ")
 
 print(nombre)
