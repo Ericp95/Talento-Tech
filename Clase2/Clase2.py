@@ -1,7 +1,7 @@
 #print("hola mundo, soy el eric y toy de vuelta")
 
 nombre=input("nombre: ")
-#apellido=input("apellido: ")
+apellido=input("apellido: ")
 #edad=input("edad: ")
 #email=input("email: ")
 
