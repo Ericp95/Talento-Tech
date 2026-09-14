@@ -5,8 +5,8 @@ apellido=input("apellido: ")
 edad=input("edad: ")
 email=input("email: ")
 
-#print(nombre)
-#print(apellido)
-#print(edad)
-#print(email)
+print(nombre)
+print(apellido)
+print(edad)
+print(email)
 
