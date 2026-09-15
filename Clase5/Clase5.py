@@ -5,3 +5,5 @@ prom=0
 
 while meses < 7 : 
     ingresos= int(input("agregar ingresos mensuales")) 
+
+    if ingresos < 0 :
