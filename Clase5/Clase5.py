@@ -7,7 +7,8 @@ while meses < 6:
     ingresos= int(input("agregar ingresos mensuales")) 
 
     if ingresos < 0 :
-        print(" Error el ingreso es negativo")
+        print(" Error el ingreso es negativo ingrese valor positivo")
+        continue
 
     if ingresos > 0 :
         acum= acum + ingresos
