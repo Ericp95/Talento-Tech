@@ -4,4 +4,7 @@
 nombres=["pedro", "juan","pablo","eric","", "juanita","lola"]
 
 for i in range(len(nombres)): 
-    print(f" Cliente{i+1}: {nombres[i]}")
+    if nombres[i] == "":
+        print(f" Cliente{i+1}: Error nombre vacio")
+    else:
+        print(f" Cliente{i+1}: {nombres[i].capitalize()}")
