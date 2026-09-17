@@ -29,4 +29,6 @@ while meses < 6 :
     if(ingresos < 0) :
         print("Error monto ingresado no debe ser negativo")
         continue
+    else :
+        acum=acum + ingresos
 
