@@ -24,3 +24,7 @@ promedio=0
 
 while meses < 6 : 
     ingresos= int(input("agregar ingresos mensuales"))
+    meses= meses+1
+
+    
+
