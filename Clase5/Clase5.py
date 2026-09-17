@@ -27,4 +27,5 @@ while meses < 6 :
     meses= meses+1
 
     if(ingresos < 0) :
+        print("Error monto ingresado no debe ser negativo")
 
