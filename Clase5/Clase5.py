@@ -26,5 +26,5 @@ while meses < 6 :
     ingresos= int(input("agregar ingresos mensuales"))
     meses= meses+1
 
-    
+    if(ingresos < 0) :
 
