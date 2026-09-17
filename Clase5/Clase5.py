@@ -31,7 +31,7 @@ while meses < 6 :
         continue
     else :
         acum=acum + ingresos
-        break
+        #break
 
-print(f"el monto acumulado es de: {acum}")
+print(f"el monto acumulado en 6 meses es de: {acum}  y el promedio mensual es de: {acum/meses}")
 
