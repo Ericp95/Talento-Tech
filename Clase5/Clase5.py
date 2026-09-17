@@ -31,4 +31,5 @@ while meses < 6 :
         continue
     else :
         acum=acum + ingresos
+        break
 
