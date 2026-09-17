@@ -26,10 +26,12 @@ while meses < 6 :
     ingresos= int(input("agregar ingresos mensuales"))
     meses= meses+1
 
-    if(ingresos < 0) :
+    if ingresos < 0 :
         print("Error monto ingresado no debe ser negativo")
         continue
     else :
         acum=acum + ingresos
         break
+
+print(f"el monto acumulado es de: {acum}")
 
