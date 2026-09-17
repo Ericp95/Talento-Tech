@@ -1,3 +1,4 @@
+"""
 meses=0
 acum=0
 ingresos=0
@@ -14,3 +15,11 @@ while meses < 7:
 
     acum= acum + ingresos    
     print(f"los ingresos promedio por mes es de: {acum/meses}")
+"""
+#otra manera mejor de hacerlo
+meses=0
+acum=0
+ingresos=0
+promedio=0
+
+while meses < 6 : 
