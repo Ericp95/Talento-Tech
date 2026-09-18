@@ -12,17 +12,17 @@ for i in range(len(nombres)):
 #haciendo una forma mejor
 
 
-n=int(input("ingrese cantidad de clientes que quiere listar"))
+n=input("ingrese cantidad de clientes que quiere listar")
 clientes=[]
 
 
 for i in range(len(n)) :
-    nombres= input("ingrese nombres de los clientes a listar")
+    nombres= input(f"ingrese nombres de los cliente:")
     clientes.append(nombres)
 
-    if nombres[i] == "" :
+    if clientes[i] == "" :
         print(f"cliente {i+1}: ERROR nombre vacio")
-    else:
-        print(f" Cliente{i+1}: {nombres[i].capitalize()}")
+    
+print(f" Cliente{i+1}: {clientes[i].capitalize()}")
 
 
