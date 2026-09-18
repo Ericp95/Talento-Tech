@@ -21,5 +21,6 @@ for i in range(len(n)) :
     clientes.append(nombres)
 
     if nombres[i] == "" :
+        print(f"cliente {i+1}: ERROR nombre vacio")
 
 
