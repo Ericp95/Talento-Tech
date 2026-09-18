@@ -11,9 +11,12 @@ for i in range(len(nombres)):
 """
 #haciendo una forma mejor
 
+
+n=int(input("ingrese cantidad de clientes que quiere listar"))
 clientes=[]
 
-for i in range(len(nombres)) :
+
+for i in range(len(n)) :
     nombres= input("ingrese nombres de los clientes a listar")
 
 
