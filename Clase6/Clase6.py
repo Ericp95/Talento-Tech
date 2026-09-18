@@ -11,6 +11,8 @@ for i in range(len(nombres)):
 """
 #haciendo una forma mejor
 
-nombre=[]
+nombres=[]
+
+for i in range(len(nombres)) :
 
 
