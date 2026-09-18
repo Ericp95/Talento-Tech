@@ -20,4 +20,6 @@ for i in range(len(n)) :
     nombres= input("ingrese nombres de los clientes a listar")
     clientes.append(nombres)
 
+    if nombres[i] == "" :
+
 
