@@ -14,5 +14,6 @@ for i in range(len(nombres)):
 nombres=[]
 
 for i in range(len(nombres)) :
+    nombres= input("ingrese nombres de los clientes a listar")
 
 
