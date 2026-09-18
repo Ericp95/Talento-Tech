@@ -22,5 +22,6 @@ for i in range(len(n)) :
 
     if nombres[i] == "" :
         print(f"cliente {i+1}: ERROR nombre vacio")
+    else:
 
 
