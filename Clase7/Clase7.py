@@ -8,3 +8,4 @@ while nombre == "fin":
 
     if nombre == "" :
         print("nombre vacio")
+        continue
