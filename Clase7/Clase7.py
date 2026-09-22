@@ -14,4 +14,11 @@ while nombre != "fin":
         clientes.append(nombre)
         
 
-print(clientes)
+#print(clientes)
+
+for i in clientes:
+    clientes.sort()
+    
+    print(f"Lista de Clientes: {clientes}")
+
+    break
