@@ -14,7 +14,6 @@ while nombre != "fin":
         clientes.append(nombre)
         
 
-#print(clientes)
 
 for i in clientes:
     clientes.sort()
