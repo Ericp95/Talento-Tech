@@ -1,7 +1,8 @@
 
 clientes=[]
+nombre=""
 
-while nombre == "fin":
+while nombre != "fin":
 
     nombre= input("ingrese nombre del cliente")
     #clientes.append(nombre)
@@ -11,3 +12,6 @@ while nombre == "fin":
         continue
     else:
         clientes.append(nombre)
+        
+
+print(clientes)
