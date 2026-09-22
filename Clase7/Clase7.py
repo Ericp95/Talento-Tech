@@ -1,2 +1,4 @@
 
 clientes=[]
+
+while nombre == "fin":
