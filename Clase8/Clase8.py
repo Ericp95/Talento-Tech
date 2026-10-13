@@ -4,6 +4,11 @@ edad=""
 
 while nombre != "fin":
     nombre=input("ingrese nombre de la persona")
-    persona.append([nombre])
+    edad=input("ingrese edad de la persona")
+
+    persona[nombre]=edad
+
+    print(persona)
+
 
    
