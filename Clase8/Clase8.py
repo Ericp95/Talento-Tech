@@ -1,13 +1,13 @@
 persona={}
-
+nombre=""
+valor=""
 
 while nombre != "fin":
-    nombre=input("ingrese nombre de la persona")
-    edad=input("ingrese edad de la persona")
-    if(edad > 18):
-        
+    nombre=input("ingrese nombre del prod")
+    valor=int(input("ingrese valor del prod"))
+      
 
-    persona[nombre]=edad
+    persona[nombre]=valor
 
 
     print(persona)
