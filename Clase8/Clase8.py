@@ -3,3 +3,5 @@ nombre=""
 edad=""
 
 while nombre != "fin":
+    nombre=input("ingrese nombre de la persona")
+    
